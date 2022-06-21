@@ -1,29 +1,17 @@
-folha("Eh um ararinha azul?").
-folha("Eh um cachorro?").
 folha("Eh um lagarto?").
 folha("Eh um leao?").
 folha("Eh um pinguim?").
-folha("Eh um rato?").
 folha("Eh uma aguia?").
 folha("Eh uma zebra?").
-galho("Eh azul?").
 galho("Eh um mamifero?").
 galho("Eh um passaro?").
-galho("Eh um roedor?").
 galho("Ele voa?").
-galho("Tem juba?").
 galho("Tem listra?").
-pai("Eh azul?","Eh um ararinha azul?",sim).
-pai("Eh azul?","Eh uma aguia?",nao).
 pai("Eh um mamifero?","Eh um passaro?",nao).
 pai("Eh um mamifero?","Tem listra?",sim).
 pai("Eh um passaro?","Eh um lagarto?",nao).
 pai("Eh um passaro?","Ele voa?",sim).
-pai("Eh um roedor?","Eh um cachorro?",nao).
-pai("Eh um roedor?","Eh um rato?",sim).
-pai("Ele voa?","Eh azul?",sim).
 pai("Ele voa?","Eh um pinguim?",nao).
-pai("Tem juba?","Eh um leao?",sim).
-pai("Tem juba?","Eh um roedor?",nao).
+pai("Ele voa?","Eh uma aguia?",sim).
+pai("Tem listra?","Eh um leao?",nao).
 pai("Tem listra?","Eh uma zebra?",sim).
-pai("Tem listra?","Tem juba?",nao).
