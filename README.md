@@ -6,4 +6,4 @@
 #### Comando para carregar o código .pl
 >[trabalho2].
 #### Comando para iniciar o programa
->inicio('memoria').
+>inicio('memoria.txt').
