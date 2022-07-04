@@ -1,4 +1,9 @@
 /*
+Felipe Vieira Ferreira
+Sérgio Gabriel
+Mariana Clemente
+Leonardo Mastra
+
 Arquivo de memoria:
 folha -> Pergunta feita para saber se acertou o animal
 galho -> Pergunta feita para reduzir as possibilidades de animais
